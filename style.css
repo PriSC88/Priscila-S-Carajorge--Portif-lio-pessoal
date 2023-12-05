@@ -1,0 +1,135 @@
+/*===================seção Tags=================*/
+
+/*Este codigo é uma sugestão para eliminar todos os espaços de margens e espacamentos*/
+/*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}*/
+
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: black;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  line-height: 2;
+  font-size: 562.5%; /*16px=100%  1em=16px*/
+  margin: 0 auto;
+  color: #8d3518;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #6b240c;
+  padding-bottom: 10px;
+  padding-top: 5%;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  color: #6b240c;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+span {
+  text-decoration: underline;
+}
+a {
+  color: rgb(224, 214, 214);
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #152905;
+}
+/*===================seção class=================*/
+
+.top-container {
+  background-color: #5f6f52;
+  position: relative;
+  padding-top: 100px;
+}
+.cerebro-tech {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+.cerebro-tech2 {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+}
+.minha-foto {
+  border-radius: 100px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.fazer-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.footer-link {
+  text-decoration: none;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+.myButton {
+  background-color: #768d87;
+  border-radius: 28px;
+  border: 1px solid #768d87;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 14px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2b665e;
+}
+.myButton:hover {
+  background-color: rgb(111, 94, 189);
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.bottom-container {
+  background-color: #768d87;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+/*===================seção ID's=================*/
